@@ -311,7 +311,7 @@ GEM
     extlib (0.9.16)
     faker (1.4.3)
       i18n (~> 0.5)
-    faraday (0.9.2)
+    faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     fastercsv (1.5.5)
     fastimage (2.1.0)
@@ -382,7 +382,7 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
-    jwt (1.5.4)
+    jwt (1.5.6)
     koala (2.4.0)
       addressable
       faraday
@@ -425,8 +425,8 @@ GEM
     non-stupid-digest-assets (1.0.4)
     nori (2.4.0)
     oauth (0.4.7)
-    oauth2 (1.2.0)
-      faraday (>= 0.8, < 0.10)
+    oauth2 (1.4.0)
+      faraday (>= 0.8, < 0.13)
       jwt (~> 1.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
@@ -438,7 +438,7 @@ GEM
     omniauth (1.8.1)
       hashie (>= 3.4.6, < 3.6.0)
       rack (>= 1.6.2, < 3)
-    omniauth-facebook (4.0.0)
+    omniauth-facebook (5.0.0)
       omniauth-oauth2 (~> 1.2)
     omniauth-flickr (0.0.15)
       omniauth-oauth (~> 1.0)
@@ -713,7 +713,7 @@ DEPENDENCIES
   non-stupid-digest-assets
   objectify-xml
   omniauth
-  omniauth-facebook (~> 4.0.0)
+  omniauth-facebook (~> 5.0.0)
   omniauth-flickr
   omniauth-google-oauth2 (~> 0.4.1)
   omniauth-oauth2 (= 1.3.1)

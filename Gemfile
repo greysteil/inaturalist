@@ -66,7 +66,7 @@ gem "nokogiri", "~> 1.8.1"
 gem "non-stupid-digest-assets"
 gem "omniauth"
 gem "omniauth-oauth2", " 1.3.1"
-gem 'omniauth-facebook', '~> 4.0.0'
+gem 'omniauth-facebook', '~> 5.0.0'
 gem 'omniauth-flickr'
 gem 'omniauth-openid'
 gem "omniauth-google-oauth2", "~> 0.4.1"
